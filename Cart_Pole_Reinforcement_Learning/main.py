@@ -30,7 +30,7 @@ env.close()
 
 
 # Training Algorithm
-log_path = 'output/'
+log_path = 'output'
 training_log_path = os.path.join(log_path, 'PPO_3')
 #!tensorboard --logdir={training_log_path}
 
